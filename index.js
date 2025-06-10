@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 const ATLANTIC_BASE_URL = 'https://atlantich2h.com';
 const API_KEY = '9tGeHhVen7eYkuPljD27WZrDa77fdjzwNir4cfWlT7MiaNeEaFbtycBcWpqc7JYnxnMayILzTGLD0qGOPskzVbKFvylOvOHsnwox';
-const MONGODB_URI = '#';
+const MONGODB_URI = 'mongosh "mongodb+srv://cluster0.ov7qqts.mongodb.net/" --apiVersion 1 --username faizfadilah015';
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
